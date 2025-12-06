@@ -12,5 +12,16 @@ git remote add origin SSH_REPO
 ```
 Titre du commit
 
-description de notre commit avec des informations sur l'évolution du projet
+Description de notre commit avec des informations sur l'évolution du projet
 ```
+
+## Envoyer un commit sur le dépôt distant
+
+```bash
+git add .
+git commit -m "titre du commit"
+git push origin main
+```
+
+
+
